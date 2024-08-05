@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="master.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Guess The Word Game</title>
+</head>
+<body>
+    <div class="header">
+      <h1 class="head">Guess The Word</h1>
+    <div class="toggle-mode">
+        <i class="fa-regular fa-moon toggle"></i>
+    </div>
+    </div>
+    <div class="words"></div>
+    <div class="guess_game">
+        <div class="game_area">
+            <div class="inputs">
+                <!-- Inputs will be dynamically added here -->
+            </div>
+            <div class="control">
+                <button class="check">Check Word</button>
+                <button class="hint"><span></span> Hints</button>
+            </div>
+        </div>
+        <div class="key_colors">
+            <h2>Key Colors</h2>
+            <div class="key-color">
+                <div class="key in-place"></div>
+                <div class="key-text">Letter Is Correct and In Place</div>
+            </div>
+            <div class="key-color">
+                <div class="key not-in-place"></div>
+                <div class="key-text">Letter Is Correct But Not In Place</div>
+            </div>
+            <div class="key-color">
+                <div class="key no"></div>
+                <div class="key-text">Letter Is Wrong</div>
+            </div>
+            <div class="message"></div>
+            <div class="rest">
+                <!-- Reset button will be dynamically added here -->
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Footer content here</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
